@@ -1,0 +1,136 @@
+body {
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  list-style: 1.5;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+hr {
+  background-color: whitesmoke;
+}
+a {
+  font-family: monospace;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 2px 200px;
+  margin: 0 none 0 none;
+}
+.navlogo {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.nav-item {
+  margin: 2px 4px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  font-size: 1.25rem;
+}
+.nav-link {
+  color: white;
+}
+
+/* MainSection */
+#main .container-fluid {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("images/main.jpeg");
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+
+.header1 {
+  margin: 100px auto;
+}
+/* Second Section */
+#aboutus {
+  padding: 40px;
+  margin: 50px;
+}
+#aboutus h1,
+h2 {
+  color: #272932;
+}
+
+#aboutus p {
+  color: #272932;
+  line-height: 1.5;
+  margin: 5px 50px;
+}
+.scontainer1 {
+  padding: 80px;
+}
+.scontaner2 {
+  padding: 80px;
+}
+.image1 {
+  width: 100%;
+  height: 75vh;
+}
+.image2 {
+  width: 100%;
+  height: 75vh;
+}
+
+/* testimonials */
+#testimonials {
+  padding: 50px;
+  background-color: #1c7293;
+  text-align: center;
+}
+#testimonials h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+#testimonials p{
+    margin:20px 20px;
+}
+.card {
+  background-color: #0a455c;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 20px;
+  border: #1c7293 10px solid;
+}
+.imgtestimonial {
+  width: 50%;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+
+/* footer */
+#contactus {
+  padding: 40px;
+  background-color: black;
+}
+.contacts {
+  padding: 20px;
+  margin: 30px auto;
+}
+.founder {
+  width: 10%;
+  border: 3px solid;
+  margin: 30px auto;
+  border-radius: 100%;
+  border-color: turquoise;
+}
